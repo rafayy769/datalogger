@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/startButton"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="Start Data Collection"
+        android:textSize="16sp"
+        app:icon="@android:drawable/ic_input_add"
+        tools:layout_conversion_absoluteWidth="253dp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <ProgressBar
+        android:id="@+id/indeterminate"
+        style="@android:style/Widget.Material.ProgressBar.Horizontal"
+        android:layout_width="315dp"
+        android:layout_height="92dp"
+        android:visibility="visible" />
+
+</LinearLayout>
